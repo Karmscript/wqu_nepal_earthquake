@@ -2,7 +2,7 @@
 
 This repository contains my **capstone project** from the Applied Data Science Lab at **WorldQuant University**, where I applied the **end-to-end data science workflow** to predict building damage severity during the 2015 Nepal earthquake.
 
-## 📊 Project Overview
+##  Project Overview
 The goal of this project was to build the most effective model that predicts **building damage severity** based on structural, demographic, and geographic features.  
 The analysis focused on **Kavrepalanchok district** in Nepal.
 
@@ -16,7 +16,7 @@ Key tasks included:
 
 ---
 
-## ⚙️ Workflow
+##  Workflow
 1. **Data Wrangling**  
    - Queried relational tables with SQL (`id_map`, `building_structure`, `building_damage`).  
    - Created the `severe_damage` target variable (damage grade > 3 encoded as 1).  
@@ -39,7 +39,7 @@ Key tasks included:
 
 ---
 
-## 📈 Key Results
+##  Key Results
 - **Best model:** Decision Tree with optimal `max_depth` of 10.  
 - Achieved strong performance on test data, outperforming baseline.  
 - Most important features for damage prediction included:  
@@ -49,7 +49,7 @@ Key tasks included:
 
 ---
 
-## 📌 Tools & Libraries
+##  Tools & Libraries
 - **Python**: pandas, numpy, seaborn, matplotlib, scikit-learn, statsmodels  
 - **SQL** for database queries  
 - **Plotly** for interactive visualizations  
